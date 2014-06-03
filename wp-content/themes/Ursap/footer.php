@@ -27,10 +27,6 @@
             </div>
         </div>
 </footer>
-<<<<<<< HEAD
-=======
-
->>>>>>> 2c765518604b4b9700983ee50643d4dce963aabe
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" type="text/javascript"></script>
 
 <?php wp_footer(); ?>
