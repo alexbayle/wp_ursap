@@ -3,10 +3,23 @@
 */
 get_header();
 ?>
-<?php
-$membres = new WP_query(array( 'post_type' => 'membres', 'posts_per_page' => 10, ));?>
-<?php if($membres->have_posts()): while($membres->have_posts()): $membres->the_post(); ?>
-    <li> <div class="projectlist-thumb"> <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a> <div> <h3><?php the_title(); ?></h3> </div> </div> </li>
-<?php endwhile; endif; ?>
+<?php $posts = get_posts(array(
+    'numberposts' => -1,
+    'post_type' => 'membres'
+    ));
+
+    if($posts)
+    {
+    echo '<ul>';
+
+    foreach($posts as $post)
+    {
+    echo '<li><a href="' . get_permalink($post->ID) . '">' . get_the_title($post->ID) . '</a></li>';
+    }
+
+    echo '</ul>';
+    }
+
+    ?>
 <?php
 get_footer();

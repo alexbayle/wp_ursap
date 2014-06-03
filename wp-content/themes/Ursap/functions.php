@@ -1,7 +1,7 @@
 <?php
 add_action( 'init', 'codex_book_init' );
 /**
- * Register a book post type.
+ * Register a membre post type.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */

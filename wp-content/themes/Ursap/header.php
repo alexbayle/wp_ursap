@@ -26,12 +26,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="container">
-    <header class="row" role="banner">
-        <hgroup class="col-md-12">
+    <header>
+        <div class="logo">
             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
             <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-        </hgroup>
+        </div>
 
         <nav id="site-navigation" class="main-navigation" role="navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
