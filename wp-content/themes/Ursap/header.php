@@ -16,15 +16,17 @@
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-    <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
+    <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="">
-    <header class="site-header" role="banner">
-        <hgroup>
+<div id="page" class="container">
+    <header class="row" role="banner">
+        <hgroup class="col-md-12">
             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
             <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
         </hgroup>

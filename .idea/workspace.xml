@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d5a2ad-62be-48aa-b190-4664de281e71" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/inc/custom-header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wp_ursap.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401781511814" ignored="false" />
     <file path="/style.css" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401781973559" ignored="false" />
+    <file path="/header.php" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401785992006" ignored="false" />
+    <file path="/index.php" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401783175927" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +47,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="154" selection-end="154" vertical-scroll-proportion="-8.5">
+            <state line="10" column="76" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.31739962">
+            <state line="19" column="70" selection-start="734" selection-end="734" vertical-scroll-proportion="-7.0384617">
+              <folding>
+                <marker date="1401786042690" expanded="true" signature="1048:1071" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.2753346">
               <folding />
             </state>
           </provider>
@@ -86,8 +113,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/page.php" />
       </list>
     </option>
   </component>
@@ -196,28 +227,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_ursap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_ursap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twentytwelve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -225,9 +234,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\wp_ursap\wp-content\themes\Ursap\inc" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <list size="0" />
@@ -242,14 +259,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -325,10 +342,68 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1088" vertical-scroll-proportion="0.0">
+        <state line="17" column="31" selection-start="685" selection-end="685" vertical-scroll-proportion="0.29254302">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="17639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-14.049713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="653" selection-end="653" vertical-scroll-proportion="0.48757172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="27" selection-start="497" selection-end="2005" vertical-scroll-proportion="0.8699809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-5/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="605" selection-end="715" vertical-scroll-proportion="0.42256215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="725" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="3" selection-start="0" selection-end="3052" vertical-scroll-proportion="0.033864543">
+          <folding>
+            <element signature="e#6#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -341,35 +416,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="0" selection-end="2233" vertical-scroll-proportion="0.19502868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="685" selection-end="685" vertical-scroll-proportion="0.29254302">
+        <state line="16" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="154" selection-end="154" vertical-scroll-proportion="-8.5">
+        <state line="10" column="76" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordpressHumbergame/wp-content/themes/HumberGames/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="67" selection-start="1168" selection-end="1199" vertical-scroll-proportion="0.7476099">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.31739962">
+        <state line="19" column="70" selection-start="734" selection-end="734" vertical-scroll-proportion="-7.0384617">
+          <folding>
+            <marker date="1401786042690" expanded="true" signature="1048:1071" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.2753346">
           <folding />
         </state>
       </provider>
