@@ -38,5 +38,5 @@
         </nav>
 
     </header>
-    <?php var_dump(get_field('logo', 20)); ?>
+
     <div id="main" class="wrapper">
