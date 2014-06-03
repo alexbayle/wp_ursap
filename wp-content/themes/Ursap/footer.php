@@ -1,8 +1,14 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: Alexandre
- * Date: 03/06/14
- * Time: 09:49
- * To change this template use File | Settings | File Templates.
- */
+
+?>
+</div>
+<footer id="colophon" role="contentinfo">
+    <div class="site-info">
+
+    </div>
+</footer>
+</div>
+
+<?php wp_footer(); ?>
+</body>
+</html>
