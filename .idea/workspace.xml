@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d5a2ad-62be-48aa-b190-4664de281e71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\wp_ursap\wp-content\uploads\2014\06\conseil-observation-soleil-150x100-90x90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wp_ursap\wp-content\uploads\2014\06\conseil-observation-soleil-150x100.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ursap.sql" afterPath="$PROJECT_DIR$/ursap.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wp_ursap.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401781511814" ignored="false" />
-    <file path="/style.css" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401781973559" ignored="false" />
+    <file path="/style.css" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401789703514" ignored="false" />
     <file path="/header.php" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401787537059" ignored="false" />
     <file path="/index.php" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401783175927" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +39,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,9 +66,9 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.7754319">
+            <state line="23" column="7" selection-start="902" selection-end="910" vertical-scroll-proportion="0.2821497">
               <folding>
-                <marker date="1401787539741" expanded="true" signature="1048:1071" placeholder="..." />
+                <marker date="1401789323646" expanded="true" signature="1048:1071" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -115,13 +119,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" />
       </list>
     </option>
   </component>
@@ -345,13 +349,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="685" selection-end="685" vertical-scroll-proportion="0.29254302">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="17639" vertical-scroll-proportion="0.0">
@@ -403,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="76" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.5384617">
@@ -452,11 +442,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.7754319">
+        <state line="23" column="7" selection-start="902" selection-end="910" vertical-scroll-proportion="0.2821497">
           <folding>
-            <marker date="1401787539741" expanded="true" signature="1048:1071" placeholder="..." />
+            <marker date="1401789323646" expanded="true" signature="1048:1071" placeholder="..." />
           </folding>
         </state>
       </provider>
