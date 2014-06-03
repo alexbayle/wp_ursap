@@ -38,7 +38,7 @@ function codex_book_init() {
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
 
-    register_post_type( 'book', $args );
+    register_post_type( 'membres', $args );
 }
 // Set up the content width value based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
