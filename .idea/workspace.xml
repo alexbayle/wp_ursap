@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d5a2ad-62be-48aa-b190-4664de281e71" name="Default" comment="" />
+    <list default="true" id="41d5a2ad-62be-48aa-b190-4664de281e71" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="wp_ursap.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="41d5a2ad-62be-48aa-b190-4664de281e71" time="1401781511814" ignored="false" />
@@ -59,10 +62,19 @@
       <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.77246654">
+            <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.7754319">
               <folding>
                 <marker date="1401787539741" expanded="true" signature="1048:1071" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-18.73077">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,12 +116,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Ursap/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Ursap/functions.php" />
       </list>
     </option>
   </component>
@@ -347,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-14.049713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="55" selection-start="653" selection-end="653" vertical-scroll-proportion="0.48757172">
@@ -440,9 +445,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-18.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Ursap/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.77246654">
+        <state line="38" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.7754319">
           <folding>
             <marker date="1401787539741" expanded="true" signature="1048:1071" placeholder="..." />
           </folding>

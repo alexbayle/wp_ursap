@@ -3,6 +3,42 @@
 // Set up the content width value based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
     $content_width = 625;
+if(function_exists("register_field_group"))
+{
+    register_field_group(array (
+        'id' => 'acf_header',
+        'title' => 'Header',
+        'fields' => array (
+            array (
+                'key' => 'field_538d931ba16d0',
+                'label' => 'logo',
+                'name' => 'logo',
+                'type' => 'image',
+                'save_format' => 'object',
+                'preview_size' => 'thumbnail',
+                'library' => 'all',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'page',
+                    'operator' => '==',
+                    'value' => '20',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'normal',
+            'layout' => 'no_box',
+            'hide_on_screen' => array (
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+}
 
 function twentytwelve_setup() {
     /*
