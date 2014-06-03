@@ -2,15 +2,28 @@
 
 ?>
 </div>
-<div class="container" id="footer">
-    <div class="row">
-        <div class="col-md-12">
-
+<footer>
+        <div id="haut">
+            <div class="logofooter">
+                <img src="" alt=""/>
+            </div>
+            <div class="menu1">
+                <a href="">A Propos</a>
+                <a href="">Prix</a>
+                <a href="">Contact</a>
+            </div>
         </div>
-        <div class="col-md-12">
-            &copy; Copyright Ursap - Tous droits réservés
+        <div id="bas">
+            <div class="copyright">
+                <p>&copy; Copyright Ursap - Tous droits réservés</p>
+            </div>
+            <div class="menu2">
+                <p>
+                    <a href="">Terms of Service</a>
+                    <a href="">Privacy Polic</a>
+                </p>
+            </div>
         </div>
-    </div>
 </footer>
 </div>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" type="text/javascript"></script>
