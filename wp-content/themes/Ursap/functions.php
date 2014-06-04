@@ -5,6 +5,9 @@ add_action( 'init', 'codex_book_init' );
  *
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 2 );
 function codex_book_init() {
     $labels = array(
         'name'               => _x( 'Membres', 'post type general name', 'your-plugin-textdomain' ),
@@ -546,14 +549,3 @@ function twentytwelve_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
-function add_search_box($items, $args) {
-
-    ob_start();
-    get_search_form();
-    $searchform = ob_get_contents();
-    ob_end_clean();
-
-    $items .= '<li id="searchform">' . $searchform . '</li>';
-    return $items;
-}
-add_filter('wp_nav_menu_items','add_search_box', 10, 2);

@@ -28,18 +28,19 @@
 <body <?php body_class(); ?>>
     <header>
         <div class="top-bar">
-
+                <?php wp_nav_menu(array('theme_location' => 'secondary')) ?>
         </div>
         <div class="header">
             <div class="menu-conteneur">
                 <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" height="70"/>
-                <?php wp_nav_menu(array('theme location' => 'primary')); ?>
+                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
             </div>
         </div>
         <div class="search-bar">
-
+            <div id="searchbar" class="alignleft">
+                <?php dynamic_sidebar( 'header-widget' );?>
+            </div>
         </div>
     </header>
 
     <div id="main" class="wrapper">
-        ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>ddddbr <br/>
