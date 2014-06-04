@@ -313,10 +313,9 @@ function twentytwelve_widgets_init() {
     register_sidebar(array(
         'name' => 'Header Widget',
         'id' => 'header-widget',
-        'before_widget' => '<div class="headerwidget">',
-        'after_widget' => '</div>',
         'before_title' => '<h3>',
-        'after_title' => '</h3>'
+        'after_title' => '</h3>',
+        'label' => false
     ) );
 }
 add_action( 'widgets_init', 'twentytwelve_widgets_init' );

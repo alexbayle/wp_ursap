@@ -37,9 +37,7 @@
             </div>
         </div>
         <div class="search-bar">
-            <div id="searchbar" class="alignleft">
-                <?php dynamic_sidebar( 'header-widget' );?>
-            </div>
+            <?php get_search_form(); ?>
         </div>
     </header>
 
