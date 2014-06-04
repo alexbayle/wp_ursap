@@ -44,3 +44,4 @@
     </header>
 
     <div id="main" class="wrapper">
+        <?php putRevSlider( "all" ) ?>
