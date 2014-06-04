@@ -12,7 +12,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 get_header( 'shop' ); ?>
-
+<?php putRevSlider( "all" ) ?>
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
@@ -85,7 +85,7 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
-		do_action( 'woocommerce_sidebar' );
+
 	?>
 
 <?php get_footer( 'shop' ); ?>
