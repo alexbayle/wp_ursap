@@ -27,15 +27,18 @@
 
 <body <?php body_class(); ?>>
     <header>
-        <div class="logo">
-            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+        <div class="top-bar">
+
         </div>
+        <div class="header">
+            <div class="menu-conteneur">
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" height="70"/>
+                <?php wp_nav_menu(array('theme location' => 'primary')); ?>
+            </div>
+        </div>
+        <div class="search-bar">
 
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-        </nav>
-
+        </div>
     </header>
 
     <div id="main" class="wrapper">
