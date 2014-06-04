@@ -101,6 +101,7 @@ function twentytwelve_setup() {
 
     // This theme uses wp_nav_menu() in one location.
     register_nav_menu( 'primary', __( 'Primary Menu', 'twentytwelve' ) );
+    register_nav_menu( 'secondary', __( 'Secondary Menu', 'twentytwelve' ) );
 
     /*
      * This theme supports custom background color and image,
@@ -305,6 +306,14 @@ function twentytwelve_widgets_init() {
         'after_widget' => '</aside>',
         'before_title' => '<h3 class="widget-title">',
         'after_title' => '</h3>',
+    ) );
+    register_sidebar(array(
+        'name' => 'Header Widget',
+        'id' => 'header-widget',
+        'before_widget' => '<div class="headerwidget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
     ) );
 }
 add_action( 'widgets_init', 'twentytwelve_widgets_init' );
@@ -536,3 +545,15 @@ function twentytwelve_customize_preview_js() {
     wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130301', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+function add_search_box($items, $args) {
+
+    ob_start();
+    get_search_form();
+    $searchform = ob_get_contents();
+    ob_end_clean();
+
+    $items .= '<li id="searchform">' . $searchform . '</li>';
+    return $items;
+}
+add_filter('wp_nav_menu_items','add_search_box', 10, 2);
