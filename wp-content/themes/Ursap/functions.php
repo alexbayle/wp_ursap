@@ -12,6 +12,8 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 1 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 2 );
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+add_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 2 );
 function codex_book_init() {
     $labels = array(
         'name'               => _x( 'Membres', 'post type general name', 'your-plugin-textdomain' ),
