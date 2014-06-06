@@ -20,19 +20,19 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
 		 * @hooked woocommerce_breadcrumb - 20
 		 */
-		do_action( 'woocommerce_before_main_content' );
 	?>
 
-		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-
-			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-
-		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_archive_description' ); ?>
 
 		<?php if ( have_posts() ) : ?>
+            <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+                <div class="botombar">
+                    <?php dynamic_sidebar( 'widget-bar' );?>
+                </div>
+                <h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
+            <?php endif; ?>
 			<?php
 				/**
 				 * woocommerce_before_shop_loop hook

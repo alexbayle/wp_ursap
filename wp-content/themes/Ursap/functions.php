@@ -1,13 +1,19 @@
 <?php
 add_action( 'init', 'codex_book_init' );
+add_filter('show_admin_bar', '__return_false');
 /**
  * Register a membre post type.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */
-
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 1 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 1 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 2 );
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+add_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 2 );
 function codex_book_init() {
     $labels = array(
         'name'               => _x( 'Membres', 'post type general name', 'your-plugin-textdomain' ),
@@ -313,6 +319,13 @@ function twentytwelve_widgets_init() {
     register_sidebar(array(
         'name' => 'Header Widget',
         'id' => 'header-widget',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+        'label' => false
+    ) );
+    register_sidebar(array(
+        'name' => 'widget-bar',
+        'id' => 'widget-bar',
         'before_title' => '<h3>',
         'after_title' => '</h3>',
         'label' => false
