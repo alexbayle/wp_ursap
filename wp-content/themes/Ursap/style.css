@@ -17,37 +17,3 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body{
     background: #e8e8e8;
 }
-
-.header{
-    background: #000000;
-    color: #ffffff;
-}
-.menu-conteneur{
-    text-align: right;
-}
-.menu-conteneur img{
-    position: absolute;
-    left: 0;
-    height: 70px;
-}
-.menu-conteneur ul{
-    margin-bottom: 0;
-}
-.menu-conteneur ul li{
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
-    display: inline-block;
-    margin: 10px 5px;
-    text-align: center;
-}
-.menu-conteneur ul li a{
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
-}
-.menu-conteneur ul li a:hover{
-    list-style: none;
-    text-decoration: none;
-    color: #bd831f;
-}

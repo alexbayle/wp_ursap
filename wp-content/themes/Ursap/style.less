@@ -47,7 +47,13 @@ table {
 }
 
 body {
-  background: #fff;
+  background: #e8e8e8;
+}
+a{
+  color: #f0b537;
+}
+a:hover{
+  color: #f0b537;
 }
 /**********************************************************************************************************************/
 /**************************************************** TOP BAR *********************************************************/
@@ -123,6 +129,36 @@ body {
   height: 60px;
   background-color: #262626;
 }
+/**********************************************************************************************************************/
+/**************************************************** TEAM MEMBER *****************************************************/
+/**********************************************************************************************************************/
+.team-member{
+  background: #ffffff;
+  box-shadow: 1px 1px 6px #555;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.team-member{
+  text-align: center;
+  line-height: 1.2em;
+  h3{
+    color: #cdcdcd;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #cdcdcd;
+  }
+  .member-pict{
+    border-radius:200px;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+  }
+}
 
 /**********************************************************************************************************************/
 /**************************************************** MENU ************************************************************/
@@ -137,9 +173,9 @@ body {
 }
 
 .menu-conteneur img{
+  height: 100px;
   position: absolute;
-  left: 0;
-  height: 70px;
+  left: 25px;
 }
 .menu-conteneur ul{
   margin-bottom: 0;
@@ -177,6 +213,35 @@ body {
   color: #ffffff !important;
   border-bottom: 2px solid #f0b537;
   padding-bottom:14px
+}
+
+.header{
+  background: #000000;
+  color: #ffffff;
+}
+.menu-conteneur{
+  text-align: right;
+}
+.menu-conteneur ul{
+  margin-bottom: 0;
+}
+.menu-conteneur ul li{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  margin: 10px 5px;
+  text-align: center;
+}
+.menu-conteneur ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu-conteneur ul li a:hover{
+  list-style: none;
+  text-decoration: none;
+  color: #bd831f;
 }
 /* Margin */
 .nomargin{margin: 0;}
@@ -321,4 +386,10 @@ footer{
 .products{
   width:90%;
   margin-left: 5%;
+}
+#tab-description{
+  padding: 10px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before{
+  margin-bottom: 0
 }
