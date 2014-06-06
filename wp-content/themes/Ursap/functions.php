@@ -317,6 +317,13 @@ function twentytwelve_widgets_init() {
         'after_title' => '</h3>',
         'label' => false
     ) );
+    register_sidebar(array(
+        'name' => 'widget-bar',
+        'id' => 'widget-bar',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+        'label' => false
+    ) );
 }
 add_action( 'widgets_init', 'twentytwelve_widgets_init' );
 
