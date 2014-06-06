@@ -32,7 +32,7 @@
         </div>
         <div class="header">
             <div class="menu-conteneur">
-               <a href="#"> <img  src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" height="70"/></a>
+               <a href="#"> <img  src="<?php bloginfo('template_directory'); ?>/images/log.png" alt="" height="70"/></a>
                 <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
             </div>
         </div>
