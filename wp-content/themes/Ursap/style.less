@@ -281,25 +281,85 @@ footer{
 /*****************************************************style panier*****************************************************/
 /**********************************************************************************************************************/
 .woocommerce-page table.shop_table{
-  box-shadow: 1px 1px 12px #555;
+  box-shadow: 1px 1px 6px #555;
   margin:auto;
   text-align:left;
   width:70%;
   border-collapse:separate;
   -webkit-border-radius:5px;
   border-radius:5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .woocommerce-page .cart-collaterals .cart_totals{
   margin:auto;
   width:70%;
   text-align:right;
   margin-top: 20px;
-  box-shadow: 1px 1px 12px #555;
+  box-shadow: 1px 1px 6px #555;
   border-radius:5px;
   padding: 10px;
 }
 .cart_totals table{
   width: 100%;
+}
+.woocommerce .cart-collaterals .shipping_calculator,.woocommerce-page .cart-collaterals .shipping_calculator{
+  width:100%;
+  *zoom:1;
+  clear:right;
+  float:right;
+}
+.cart-collaterals .shipping_calculator,.woocommerce-page .cart-collaterals .shipping_calculator{
+  margin: auto;
+  margin-top: 20px;
+}
+.woocommerce table.shop_table td,.woocommerce-page table.shop_table td{
+  border-top:1px solid rgba(0,0,0,0.1);
+  padding:6px 12px;
+  vertical-align:middle
+}
+.woocommerce-page form .form-row select{
+  width:60%
+}
+.woocommerce form .form-row input.input-text,.woocommerce form .form-row textarea,.woocommerce-page form .form-row input.input-text,.woocommerce-page form .form-row textarea{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  width:60%;
+  margin:0;
+  outline:0;
+  line-height:1em;
+}
+.woocommerce .cart-collaterals .shipping_calculator .button,.woocommerce-page .cart-collaterals .shipping_calculator .button{
+  width:100%;
+  float:none;
+  display:block
+}
+.checkout h3{
+  margin-left: 50px;
+}
+.woocommerce-page form .form-row-last{
+  float:left;
+  width:53%;
+  overflow:visible}
+.woocommerce form .form-row-last,.woocommerce-page form .form-row-last{
+  float:right
+}
+/**********************************************************************************************************************/
+/**************************************************** Validation Paiement *********************************************/
+/**********************************************************************************************************************/
+.woocommerce .col2-set,.woocommerce-page .col2-set{
+  *zoom:1;
+  width:80%;
+  margin: auto;
+}
+.woocommerce #payment ul.payment_methods,.woocommerce-page #payment ul.payment_methods{
+  *zoom:1;
+  text-align:left;
+  padding:1em;
+  border-bottom:1px solid #dfdbdf;
+  margin:20px;
+  list-style:none outside
 }
 /**********************************************************************************************************************/
 /**************************************************** SINGLE PRODUCT **************************************************/
