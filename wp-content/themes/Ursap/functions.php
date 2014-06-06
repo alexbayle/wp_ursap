@@ -1,5 +1,6 @@
 <?php
 add_action( 'init', 'codex_book_init' );
+add_filter('show_admin_bar', '__return_false');
 /**
  * Register a membre post type.
  *
